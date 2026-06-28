@@ -26,6 +26,15 @@ artifacts/
 !models/
 !models/.gitkeep
 
+# Pengecualian khusus untuk file data & model dashboard agar dapat di-upload ke GitHub:
+!processed_data/features/features_all_dataset.csv
+!processed_data/merged/dataset_all_merged.csv
+!models/model_rf.pkl
+!models/feature_columns.json
+!models/training_metadata.json
+!results/evaluation_per_commodity.csv
+
+
 # ==========================================
 # ENVIRONMENTS & DEPENDENCIES
 # ==========================================

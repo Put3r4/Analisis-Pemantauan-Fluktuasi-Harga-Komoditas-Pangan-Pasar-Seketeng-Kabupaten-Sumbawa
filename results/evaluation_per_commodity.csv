@@ -1,0 +1,24 @@
+Rank,Komoditas,N_Riil,MAE_Rp,RMSE_Rp,MAPE_Pct,MAE_Naive,Lebih_Baik,Kategori
+1,daging_ayam_ras,24,1400.34,1812.68,3.4262,1500.0,True,Sangat Baik
+2,minyak_goreng_sawit_curah,12,785.05,931.76,3.4941,837.5,True,Sangat Baik
+3,telur_ayam_ras,19,1233.47,1412.59,4.015,1315.79,True,Sangat Baik
+4,beras_medium,21,634.37,921.82,4.3523,700.0,True,Sangat Baik
+5,beras_premium,19,716.45,843.75,4.5897,778.95,True,Sangat Baik
+6,gula_pasir_curah,15,983.94,1040.08,5.2283,1000.0,True,Sangat Baik
+7,udang_basah,16,4564.87,4892.27,6.961,4791.62,True,Sangat Baik
+8,minyak_goreng_sawit_kemasan_premium,18,1975.12,2357.44,7.626,1972.22,False,Sangat Baik
+9,kedelai_lokal,5,1425.51,1510.83,7.64,1400.0,False,Sangat Baik
+10,bawang_putih_honan,19,3016.41,3315.81,7.9603,3000.0,False,Sangat Baik
+11,bawang_merah,21,3823.57,4138.92,9.3559,3761.9,False,Sangat Baik
+12,kacang_hijau,9,2768.29,3091.3,9.3719,2777.78,True,Sangat Baik
+13,kacang_tanah,10,3592.94,4577.1,10.3572,3400.0,False,Baik
+14,cabai_merah_keriting,37,5823.94,7062.72,11.4391,5963.95,True,Baik
+15,tomat,27,1660.39,1839.2,11.5076,1666.67,True,Baik
+16,ikan_kembung,13,4039.01,4715.89,12.1777,4153.85,True,Baik
+17,cabai_merah_besar,26,5738.51,6304.9,12.7164,5384.62,False,Baik
+18,cabai_rawit_hijau,10,5388.9,5605.52,13.4885,5500.0,True,Baik
+19,cabai_rawit_merah,41,9357.94,12719.97,13.9611,9715.29,True,Baik
+20,minyakita,6,2595.95,3334.34,14.8546,2611.0,True,Baik
+21,ikan_bandeng,12,5373.06,5632.86,15.7017,5500.0,True,Baik
+22,ikan_tongkol,10,4472.13,4625.1,17.1194,4500.0,True,Baik
+23,jagung_pipilan_kuning,5,1698.72,1801.1,19.3202,1700.0,True,Baik

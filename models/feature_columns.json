@@ -1,0 +1,15 @@
+[
+  "Tahun",
+  "Bulan",
+  "Hari",
+  "DayOfWeek",
+  "Quarter",
+  "WeekOfYear",
+  "Harga_Kemarin",
+  "Harga_Minggu_Lalu",
+  "Rolling_Mean_7",
+  "Rolling_Mean_14",
+  "Rolling_Std_7",
+  "Rolling_Max_7",
+  "Rolling_Min_7"
+]

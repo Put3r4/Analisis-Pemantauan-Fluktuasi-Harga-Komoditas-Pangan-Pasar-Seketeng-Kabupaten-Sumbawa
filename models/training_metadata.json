@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-06-27T10:46:15.148524",
+  "dataset_path": "../processed_data/features/features_all_dataset.csv",
+  "n_total_rows": 76363,
+  "n_features": 13,
+  "feature_cols": [
+    "Tahun",
+    "Bulan",
+    "Hari",
+    "DayOfWeek",
+    "Quarter",
+    "WeekOfYear",
+    "Harga_Kemarin",
+    "Harga_Minggu_Lalu",
+    "Rolling_Mean_7",
+    "Rolling_Mean_14",
+    "Rolling_Std_7",
+    "Rolling_Max_7",
+    "Rolling_Min_7"
+  ],
+  "excluded_columns": {
+    "Sumber": "55.98% missing values — tidak informatif untuk model",
+    "Tanggal": "digunakan hanya untuk sorting kronologis",
+    "Komoditas": "digunakan untuk groupby evaluasi di evaluation_model.ipynb"
+  },
+  "split_info": {
+    "cutoff_date": "2026-02-15",
+    "train_start": "2021-01-18",
+    "train_end": "2026-02-15",
+    "test_start": "2026-02-16",
+    "test_end": "2026-11-10",
+    "n_total": 76363,
+    "n_train": 61087,
+    "n_test": 15276,
+    "train_pct": 79.9955,
+    "test_pct": 20.0045,
+    "split_method": "chronological_iloc_80_20"
+  },
+  "model_class": "RandomForestRegressor",
+  "model_library": "scikit-learn",
+  "best_params": {
+    "max_depth": 10,
+    "min_samples_leaf": 5,
+    "min_samples_split": 12,
+    "n_estimators": 100
+  },
+  "random_state": 42,
+  "tuning_method": "2-Tahap GridSearch + TimeSeriesSplit",
+  "best_cv_mae": 1107.96,
+  "cv_metric": "neg_mean_absolute_error",
+  "global_test_metrics": {
+    "mae": 227.64397782425354,
+    "rmse": 1027.265505227993,
+    "mape": 0.5583419387915545,
+    "r2": 0.9998004537352495
+  },
+  "note_on_metrics": "~98% test set adalah baris forward-fill (ffill). Metrik global sangat dipengaruhi dominasi ffill. Evaluasi genuine (hari riil & per komoditas) ada di evaluation_model.ipynb."
+}
