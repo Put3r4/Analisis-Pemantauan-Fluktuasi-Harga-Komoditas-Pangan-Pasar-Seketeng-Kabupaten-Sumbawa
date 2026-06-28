@@ -7,6 +7,10 @@ Main Entry Point & Landing Dashboard
 
 import os
 import sys
+import warnings
+
+# Abaikan peringatan deprecation use_container_width di log console
+warnings.filterwarnings("ignore", message=".*use_container_width.*")
 
 # 1. Tentukan basis direktori dinamis dan tambahkan ke sys.path
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
