@@ -7,7 +7,24 @@ Main Entry Point & Navigation
 
 import streamlit as st
 from pathlib import Path
+import sys
+import os
 
+# 1. Cetak lokasi direktori kerja saat ini di server cloud
+print("DIREKTORI KERJA SAAT INI:", os.getcwd())
+print("ISI DIREKTORI UTAMA:", os.listdir(os.getcwd()))
+
+# 2. Bungkus proses import & inisialisasi dengan try-except untuk menangkap error
+try:
+    import streamlit as st
+    import pandas as pd
+    import numpy as np
+    
+    print("Semua library dasar berhasil di-import!")
+except Exception as e:
+    print(f"!!! CRASH PADA UTAN UTAMA !!! Error: {e}")
+    sys.exit(1)
+    
 # Page Configuration
 st.set_page_config(
     page_title="PANTAU PASAR - Kabupaten Sumbawa",
