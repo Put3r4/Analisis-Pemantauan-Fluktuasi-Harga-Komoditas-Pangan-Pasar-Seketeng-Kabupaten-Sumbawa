@@ -1,0 +1,81 @@
+# ==========================================
+# FILE DATA & MODEL (Paling Penting!)
+# ==========================================
+# Jangan upload data mentah atau data hasil olahan ke Git
+*.csv
+*.xlsx
+*.json
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.h5
+*.hd5
+*.npy
+*.npz
+
+# Jika Anda membuat folder khusus data dan model, abaikan seluruh isinya
+data/
+models/
+output/
+artifacts/
+
+# Kecuali Anda ingin menyertakan folder kosongnya saja, gunakan rules ini:
+!data/
+!data/.gitkeep
+!models/
+!models/.gitkeep
+
+# ==========================================
+# ENVIRONMENTS & DEPENDENCIES
+# ==========================================
+# Mengabaikan virtual environment (venv, conda, dll)
+.venv/
+venv/
+env/
+ENV/
+bin/
+lib/
+share/
+pyvenv.cfg
+.CondaSettings/
+
+# ==========================================
+# JUPYTER NOTEBOOK CACHE & CHECKPOINTS
+# ==========================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# KONFIGURASI DAN SKRIP RAHASIA (SECURITY)
+# ==========================================
+# File yang berisi API Key, password database, atau token
+.env
+.env.*
+secrets.json
+config.ini
+credentials.yml
+
+# ==========================================
+# SYSTEM FILES (OS SPECIFIC)
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==========================================
+# IDE & TEXT EDITORS
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
