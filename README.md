@@ -661,11 +661,11 @@ copies or substantial portions of the Software.
 
 **Saputra Budiman**  
 Sistem Informasi Manajemen  
-Universitas [Nama Universitas]
+[Universitas Teknologi Sumbawa](https://uts.ac.id/)
 
-- 📧 Email: [email@example.com](mailto:email@example.com)
-- 🐙 GitHub: [@username](https://github.com/username)
-- 💼 LinkedIn: [Saputra Budiman](https://linkedin.com/in/username)
+- 📧 Email: [saputrabudiman77@gmail.com](mailto:saputrabudiman77@gmail.com)
+- 🐙 GitHub: [@Put3r4](https://github.com/Put3r4)
+- 💼 LinkedIn: [Saputra Budiman](https://www.linkedin.com/in/saputra-budiman/)
 
 ---
 
