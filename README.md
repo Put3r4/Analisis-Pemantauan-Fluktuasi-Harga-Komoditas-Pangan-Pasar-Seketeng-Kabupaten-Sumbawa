@@ -708,8 +708,8 @@ Jika Anda menggunakan proyek ini dalam penelitian atau publikasi, mohon sitasi:
 ### Dataset
 
 Data yang digunakan dalam penelitian ini berasal dari sumber-sumber publik:
-- SP2KP: https://ews.kemendag.go.id/sp2kp-landing
-- PIHPS: https://hargapangan.id/
+- SP2KP: [https://ews.kemendag.go.id/sp2kp-landing](https://sp2kp.kemendag.go.id/)
+- PIHPS: [https://hargapangan.id/](https://www.bi.go.id/hargapangan)
 - Diskoperindag & UPT: Data internal dengan izin penelitian
 
 ---
